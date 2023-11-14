@@ -170,11 +170,100 @@
 //     console.log("Нет");
 // }
 
-let a = prompt ("Введите переменную a");
-let b = prompt ("Введите переменную b");
-if (a === b){
-    console.log(true);
-}
-if (a != b){
-    console.log(false);
+// let a = prompt ("Введите переменную a");
+// let b = prompt ("Введите переменную b");
+// if (a === b){
+//     console.log(true);
+// }
+// if (a != b){
+//     console.log(false);
+// }
+
+
+// while(условие){
+//     Тело выполняется
+// }
+
+// let i = 0
+// 0<3 (1 итерация)
+// 1<3 (2 операция)
+// 2<3 (3 операция)
+// 3<3 (цикл прерывается условие ложное)
+// while(i<3){
+//     alert(i)
+//     i++
+// }
+
+// let counter = 0
+// console.log(counter++);
+// counter++
+
+// let i = 3
+// while(i!=0){
+//     console.log(i);
+//     i--
+// }
+
+// do{
+//     тело цикла
+// }while(условие)
+
+// let i = 0;
+// do{
+//     console.log(i);
+//     i++
+// }while(i<3)
+
+// for(начало, условие, шаг){
+//     тело цикла
+// }
+
+// for(let i = 0; i<3; i++){
+//     alert(i)
+// }
+
+// for(let i=0; i<3; i++){
+// console.log(i);
+// }
+
+// выполнить начало
+// let i=0
+// Если условие ==true => выполить тело, выполнить шаг
+// break прерывает выполнения всего цикла
+// let n=0
+// for(;;){
+//     console.log(n++);
+//     if(n>10){
+//         break
+//     }
+// }
+// continue прерывает итерацию цикла
+// for (let n=0;n<10;n++){
+//     if(n%2 ===0) continue
+//     alert(n)
+// }
+
+// for(let i=1; i<=10;i++){
+//     console.log(i);
+// }
+
+// for(let i=0; i<20; i++){
+//     if(i%2==0 && i !=0){
+//         console.log(i);
+//     }
+// }
+
+
+// for(let i=1; i<=50; i++){
+//     console.log(i);
+// }
+
+// for(let i=50; i>=25; i--){
+//     console.log(i);
+// }
+
+for(let i=2500; i<=3000; i++){
+    if(i % 2 !==0){
+        console.log(i);
+    }
 }
