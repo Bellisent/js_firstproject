@@ -262,8 +262,137 @@
 //     console.log(i);
 // }
 
-for(let i=2500; i<=3000; i++){
-    if(i % 2 !==0){
-        console.log(i);
-    }
-}
+// for(let i=2500; i<=3000; i++){
+//     if(i % 2 !=0){
+//         console.log(i);
+//     }
+// }
+
+
+// if(){    
+// }else{}
+// else if(){}
+
+// let a = 5;
+// let b = "5"
+// // Тут идет проверка на ===
+// switch(+b){
+//     case a*1:
+//         console.log('Мне кажется ты ошибся');
+//         break
+//     case 1:
+//         console.log('Мне кажется ты не дожал');
+//         break
+//     case 5:
+//         console.log('Ты явно делаешь успехи');
+//     break
+//     default:
+//     console.log('Тут нет верного ответа');
+
+// }
+ 
+
+// let c = 10;
+// let d = 20 
+// if(d<c){
+//     console.log('No good');
+// }else{
+//     console.log('Good');
+// }
+
+// switch(d<c){
+//     case true:
+//         console.log('No good');
+//         break
+//         default:
+//             console.log('Good');
+// }
+
+// let makaka = 0;
+// while(makaka < 10){
+//     makaka =makaka + 1
+//     switch(+makaka){
+//     case 1:
+//     case 2:
+//     case 3:
+//     case 4:
+//     case 5:
+//     case 6:
+//     case 7:
+//     case 8:
+//     case 9:
+//         console.log('Лузер');
+//         break
+//     case 10:
+//         console.log('Красавчик');     
+//         break   
+//     }  
+// }
+
+
+// let a = prompt('Сколько тебе лет?')
+// switch(+a){
+//     case 20:
+//         console.log('Ты слишком стар');
+//         break
+//     case 30:
+//         console.log('Ты еще стрее, этот код тоже не выполнится');
+//         break
+//     case "50":
+//         console.log('Ты вообще древний, но твой код выполнится');
+//         break
+//     default:
+//         console.log('Я не знаю таких цифр');
+// }
+
+// let user = null;
+// let firstName = null
+// let nickName = 'Victoria'
+// alert(user ?? firstName ?? nickName ?? 'Аноним')
+
+// Оператор || возвращает первое истинное значение 
+// Оператор ?? возвращает первое определенное значение
+
+// let a = 5;
+// let b = prompt('Сколько сегодня градусов?')
+// switch (+b){
+//     case 5:
+//         console.log('Верно');
+//         break
+//     case 10:
+//         console.log('Не верно');
+//         break
+//     default:
+//         console.log('Не сработало');
+// }
+
+// let a = prompt ('Введите число от 1 до 12') 
+// switch (+a){
+//         case 1:
+//         case 2:
+//         case 3:
+//             console.log('Зима');
+//             break
+//         case 4:
+//         case 5:
+//         case 6:
+//             console.log('Весна');
+//             break
+//         case 7:
+//         case 8:
+//         case 9:
+//             console.log('Лето');
+//             break
+//         case 10:
+//         case 11:
+//         case 12:
+//             console.log('Осень');
+//             break
+//     }
+
+let a = null;
+let b = null
+let c = 'Victoria'
+alert (a ?? b ?? c ?? 'Victoria')
+
+
