@@ -390,9 +390,112 @@
 //             break
 //     }
 
-let a = null;
-let b = null
-let c = 'Victoria'
-alert (a ?? b ?? c ?? 'Victoria')
+// let a = null;
+// let b = null
+// let c = 'Victoria'
+// alert (a ?? b ?? c ?? 'Victoria')
 
 
+//function declaration 
+// function expretion
+//стрелочная функция
+let btn = document.querySelector('.ones')
+
+// //function declaration 
+// function one(){
+    
+//     console.log('function');
+//     return 666
+// }
+// 1й варинт вызова функций
+// one()
+
+// 2й вариант вызов по клику
+// btn.onclick = one
+
+// From Borsh(){
+//     ...ряд команд
+//     порезать капусту 
+//     поерзать лук
+//     поставить кастрюлю
+// }
+
+// let a = 8 
+// let b = 9
+// function multiply(){
+//     console.log(a * b);
+// }
+// multiply()
+
+// let a = 8
+// let b = 9 
+// function multiply(){
+//  return a*b
+// }
+// console.log(multiply() + 20);
+
+// function mlt(x,y){
+//     return x+y
+// }
+// console.log(mlt(10,30));
+// либо console.log(mlt('Привет ', 'всем!'));
+// то что передается в круглые скобки при вызова функции называется аргументом
+// то что передается в круглые скобки при создании функции называется параметром
+
+
+    // После return любые действия выполняться не будут
+// function mlt(mill){
+//     return mill * 1.6
+// }
+// console.log(mlt(100));
+
+// function mlt(x,y){
+//     return x+y
+// }
+// console.log(mlt(10,40));
+
+// btn.onclick = function(){
+//     console.log(123);
+// }
+// qwe()
+// // function declaration 
+// function qwe(){
+//     console.log(123);
+// }
+// // function expretion 
+// let qwer = function(){
+//     console.log(321);
+// }
+// // Стрелочная функция 
+// let qwert = () =>{
+// console.log(213);
+// }
+
+
+let x = Number|prompt('Введите значение x')
+let y = Number|prompt('Введите значение y')
+function qw(x,y){
+    return x+y;
+}
+console.log(qw(x,y));
+
+let a = Number|prompt('Введите значение a')
+let b = Number|prompt('Введите значение b')
+function qwe(a,b){
+    return a-b;
+}
+console.log(qwe(a,b));
+
+let z = Number|prompt('Ведите значение z')
+let q = Number|prompt('Введите значение q')
+function qwer(z,q){
+    return z*q
+}
+console.log(qwer(z,q));
+
+let m = Number|prompt('Введите значение m')
+let n = Number|prompt('Введите значение n')
+function qwert(m,n){
+    return m/n;
+}
+console.log(qwert(m,n));
